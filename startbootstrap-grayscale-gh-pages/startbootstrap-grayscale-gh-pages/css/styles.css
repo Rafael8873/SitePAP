@@ -11128,7 +11128,7 @@ body {
 @media (min-width: 992px) {
   .projects-section .featured-text {
     padding: 0 0 0 2rem;
-    border-left: 0.5rem solid #64a19d;
+    border-left: 0.5rem ;
   }
 }
 .projects-section .project-text {
@@ -11200,4 +11200,19 @@ body {
 
 .footer {
   padding: 5rem 0;
+}
+
+.btn-transparent {
+  background-color: transparent;
+  border: none;
+  color: white; /* Cor do ícone */
+  padding: 10px 20px;
+  font-size: 20px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.btn-transparent i {
+  font-size: 24px; /* Tamanho do ícone */
 }
